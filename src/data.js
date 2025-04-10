@@ -28,6 +28,18 @@ const questions = [
         title: 'Jakie są różnice między HTML a JSX?',
         info:
           'JSX wygląda jak HTML, ale to tak naprawdę składnia JavaScriptu. JSX pozwala pisać komponenty Reacta w stylu HTML, ale ma kilka różnic – np. zamiast `class` używa się `className`, a wszystkie tagi muszą być poprawnie domknięte.',
+      },
+      {
+        id: 6,
+        title: 'Czym jest Virtual DOM w React?',
+        info:
+          'Virtual DOM to lekka kopia prawdziwego DOM-u przechowywana w pamięci. React wykorzystuje ją do efektywnego porównywania zmian i aktualizowania tylko tych elementów, które faktycznie się zmieniły – co przyspiesza renderowanie.',
+      },
+      {
+        id: 7,
+        title: 'Do czego służy useState w React?',
+        info:
+          'Hook useState pozwala na dodanie stanu do komponentu funkcyjnego. Dzięki niemu komponenty mogą „pamiętać” dane między renderami, np. licznik kliknięć czy dane formularza.',
       }
   ]
   export default questions
